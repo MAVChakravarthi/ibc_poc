@@ -1,0 +1,19 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+aiohttp>=3.9.0
+numpy>=1.24.0
+
+faster-whisper>=1.0.0
+transformers>=4.40.0
+torch>=2.2.0
+sentencepiece>=0.1.99   # required for M2M100 tokenizer
+
+# Optional but commonly needed
+python-dotenv>=1.0.0    # if you want .env support
+
+
+# conda create -n asr_env python=3.10
+# conda activate asr_env
+# pip install -r requirements.txt
+
